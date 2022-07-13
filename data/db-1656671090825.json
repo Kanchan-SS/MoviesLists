@@ -1,0 +1,43 @@
+{
+  "movies": [
+    {
+      "mname": "charliee 777",
+      "hero": "Rakshit Shetty",
+      "heroine": "..",
+      "category": "drama",
+      "poster": "https://www.thenewsminute.com/sites/default/files/styles/news_detail/public/Charlie777_poster_131221_1200_0.jpg?itok=h1zpuiE8",
+      "id": 1
+    },
+    {
+      "mname": "Runway 34",
+      "hero": "Ajay devagan",
+      "heroine": "Rakhul Preet",
+      "category": "Thriller",
+      "poster": "https://m.media-amazon.com/images/M/MV5BN2YzNjU4MTYtMzY5OS00ODg0LTkxMTUtNjg0YjRkYzI5ZWJjXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_UY1200_CR135,0,630,1200_AL_.jpg",
+      "id": 2
+    },
+    {
+      "mname": "chennai Express",
+      "hero": "SRK",
+      "heroine": "Deepika",
+      "category": "Action",
+      "id": 3
+    },
+    {
+      "mname": "Mission Mangal",
+      "hero": "akashya",
+      "heroine": "vidhya balan",
+      "category": "sci-fi",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcmhIeD8Y9c7Ilus2ckXB5BMKIDiTWICHVBQ&usqp=CAU",
+      "id": 4
+    },
+    {
+      "mname": "WAR",
+      "hero": "Hrithik",
+      "heroine": "Vani kapoor",
+      "category": "Action",
+      "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTT5kj2NNokG60HamhjpP0ZVw4w0DjnDDSt6Q&usqp=CAU",
+      "id": 5
+    }
+  ]
+}

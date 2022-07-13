@@ -1,0 +1,251 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(200, 200, 228);
+}
+
+/* --------------------NavBar---------------------------- */
+.nav-content {
+  max-width: 900px;
+  height: 60px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+
+/* --------------------moviesList------------------ */
+#mv1 {
+  color: rgb(55, 7, 102);
+}
+
+/* a{
+  color: white;
+} */
+.nav-content div a {
+  font-size: 25px;
+  text-decoration: none;
+  margin: 0px 10px;
+
+}
+
+.home-content h3 {
+  color: black
+}
+
+.home-content {
+  max-width: 900px;
+  margin: auto;
+  padding: 15px;
+}
+
+.home-content a {
+  text-decoration: none;
+
+}
+
+.home-content div {
+  padding: 20px;
+  border-bottom: solid black 1px;
+
+}
+
+.home-content div:hover {
+  background-color: white;
+  border-radius: 10px;
+  border: solid 3px black;
+  box-shadow: 5px 5px 10px black;
+  font-size: x-large;
+}
+
+#mv1:hover {
+  color: blue;
+}
+
+.home-content button {
+  margin-top: 10px;
+  width: 90px;
+  background-color: rgb(233, 168, 210);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#title {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+#home:hover {
+  background-color: rgb(222, 222, 237);
+  color: white;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+
+#add:hover {
+  background-color: rgb(208, 208, 244);
+  color: white;
+  border-radius: 10px;
+  font-size: xx-large;
+}
+
+
+/* ----------------------------ADD NEW MOVIES---------------------------- */
+.create-movie {
+  position: relative;
+  top:50px;
+  left:320px;
+  max-width: 900px;
+  
+  border: 1px solid black;
+  box-sizing: border-box;
+  padding: 60px;
+  background-color: aliceblue;
+}
+
+.create-movie form {
+  position: relative;
+  top: 50px;
+  left: 500px;
+  display: grid;
+  grid-template-columns: 280px 400px;
+  align-items: center;
+  margin: 20px auto;
+  row-gap: 10px;
+  margin-left: 100px;
+  font-size: xx-large;
+}
+.create-movie input::placeholder{
+  font-size:large;
+}
+
+.create-movie h1 {
+  
+  color: red;
+  font-size: 60px;
+  font-weight: bold;
+  margin-left: 100px;
+
+}
+
+.create-movie input {
+  height: 40px;
+  width: 300px;
+  text-align: center;
+  
+  border-radius: 10px;
+}
+#img{
+  margin-top: 20px;
+  width: 900px;
+  height: 500px;
+}
+
+
+.create-movie button {
+  display: block;
+  margin-top: 10px;
+  width: 150px;
+  margin-left: 180px;
+  padding: 15px;
+  border-radius: 25px;
+  background-color:rgb(250, 121, 98);
+  font-size: 20px;
+}
+
+/* ----------------MovieDeatails---------------- */
+.movie-detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#img {
+  align-items: center;
+  size: 200px;
+}
+
+.movie-detail button {
+  padding: 10px;
+  background-color: rgb(198, 23, 136);
+  border-radius: 15px;
+  align-items: center;
+}
+
+
+/* -------------------NOT FOUND----------------------- */
+.Not-found h1{
+  /* display: flex;
+  justify-content:left;
+  align-items: center;
+   */
+   position: relative;
+   left:500px;
+   color: red;
+   font-size: 60px;
+   margin-top: 50px;
+}
+
+.Not-found h2{
+  position: relative;
+  left:300px;
+  margin-top: 70px;
+
+}
+.Not-found a{
+  text-decoration: none;
+  position: relative;
+  left: 700px;
+  font-size: 40px;
+  top: 50px;
+  border: 1px solid black;
+  background-color:red;
+  color: aliceblue;
+  
+
+}
+
+
+
+
+
+
+
+
+/* ---login form */
+/* *{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background-color: turquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+div{
+  height:400px;
+  width: 400px;
+  border: solid black 2px;
+  background-color:white;
+
+}
+h1{
+  background-color: rgb(2, 67, 67);
+  color:white;
+  height: 60px;
+  text-align: center;
+  padding: 10px;
+  
+} */
